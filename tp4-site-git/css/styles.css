@@ -192,14 +192,14 @@ header, footer p {
 	width: 100%;
 }
 
-.txt {
+.grid .txt {
 	margin: auto;
 }
 
-.grid>.img:hover {
+.img:hover {
 	box-shadow: 0px 0px 20px -2px #445679;
 	transform: scale(1.05);
-	transition: all 0.4s;
+	transition: all 0.35s;
 }
 
 /* --------------------------- */
@@ -207,6 +207,52 @@ header, footer p {
 /* ------- EXERCICE 2 -------- */
 
 /* --------------------------- */
+
+.grid2 {
+	display: grid;
+	gap: 10px;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	grid-template-areas: 
+	"pk lt bb bb" 
+	"ms ms bb bb" 
+	"ms ms ch chee";
+	align-content: stretch;
+	justify-content: stretch;
+}
+
+.grid2 div {
+	line-height: 0;
+}
+
+.grid2 img {
+	width: 100%;
+}
+
+.poker {
+	grid-area: pk;
+}
+
+.lutin {
+	grid-area: lt;
+}
+
+.masque {
+	grid-area: ms;
+}
+
+.chat {
+	grid-area: ch;
+}
+
+.cheetos {
+	grid-area: chee;
+}
+
+.bonbons {
+	grid-area: bb;
+}
+
 
 /* --------------------------- */
 
