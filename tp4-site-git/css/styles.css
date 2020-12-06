@@ -122,6 +122,14 @@ header, footer p {
 	padding: 10px 0;
 }
 
+.gitlab_link {
+	color: #a6db15;
+	text-decoration: none;
+}
+.gitlab_link:hover {
+	color: #81aa11;
+	text-decoration: underline;
+}
 
 .nav-exercices ul {
 	padding: 0;
