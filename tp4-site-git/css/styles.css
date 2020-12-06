@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Dosis:wght@500&family=Roboto&display=swap");
-
 /* -------------------------------- */
+
 /* ----------- GÉNÉRAL ------------ */
+
 /* -------------------------------- */
 
 * {
@@ -14,15 +15,16 @@
 	margin: 0 auto;
 }
 
-.flex{
+.flex {
 	display: flex;
 	align-items: flex-start;
 }
-.flex img{
-	margin-left: 30px ;
+
+.flex img {
+	margin-left: 30px;
 }
 
-section{
+section {
 	padding: 20px 0;
 	clear: both;
 }
@@ -31,7 +33,7 @@ img {
 	max-width: 100%;
 }
 
-.fr{
+.fr {
 	float: right;
 	margin: 20px;
 	text-align: center;
@@ -52,24 +54,23 @@ body {
 	font-size: 1.2rem;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1, h2, h3, h4, h5, h6 {
 	font-family: "Dosis", sans-serif;
 	font-weight: 500;
 }
+
 h1, h2 {
 	margin: 0 0 0.5em 0;
 }
-h3{
+
+h3 {
 	font-size: 2rem;
 }
+
 a {
 	color: #c1ff1b;
 }
+
 a:hover {
 	opacity: 0.9;
 }
@@ -83,9 +84,11 @@ a:hover {
 	text-align: center;
 	align-items: center;
 }
+
 .btn img {
 	margin-right: 0.5em;
 }
+
 .btn:hover {
 	margin-left: 0.5rem;
 }
@@ -93,10 +96,12 @@ a:hover {
 table {
 	text-align: left;
 }
+
 th {
 	font-weight: 400;
 	padding: 0.2em 1em 0.2em 0;
 }
+
 td, span {
 	font-family: 'Lucida Console', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 	background-color: #fff;
@@ -104,20 +109,24 @@ td, span {
 	padding: 0.2em 0.5em;
 }
 
-.list-check{
+.list-check {
 	list-style-type: square;
 }
-.list-check li{
+
+.list-check li {
 	margin-bottom: 0.5em;
 }
 
 /* -------------------------------------- */
+
 /* ------- HEADER / NAV / FOOTER -------- */
+
 /* -------------------------------------- */
 
-header h1{
+header h1 {
 	margin-bottom: 0;
 }
+
 header, footer p {
 	padding: 10px 0;
 }
@@ -126,6 +135,7 @@ header, footer p {
 	color: #a6db15;
 	text-decoration: none;
 }
+
 .gitlab_link:hover {
 	color: #81aa11;
 	text-decoration: underline;
@@ -138,9 +148,11 @@ header, footer p {
 	list-style-type: none;
 	margin: 40px 0;
 }
+
 .nav-exercices li {
 	width: 32%;
 }
+
 .nav-exercices a {
 	display: block;
 	text-align: center;
@@ -150,6 +162,7 @@ header, footer p {
 	min-height: 100%;
 	padding: 0 30px 20px;
 }
+
 .nav-exercices a:hover {
 	background-color: #c2ff1b28;
 	transform: scale(1.1);
@@ -157,7 +170,9 @@ header, footer p {
 }
 
 /* --------------------------- */
+
 /* ------- EXERCICE 1 -------- */
+
 /* --------------------------- */
 
 .grid {
@@ -168,7 +183,7 @@ header, footer p {
 	margin-bottom: 5%;
 }
 
-.grid div *{
+.grid div * {
 	align-items: center;
 	justify-items: center;
 	text-align: center;
@@ -181,21 +196,22 @@ header, footer p {
 	margin: auto;
 }
 
-.grid > .img:hover {
+.grid>.img:hover {
 	box-shadow: 0px 0px 20px -2px #445679;
 	transform: scale(1.05);
 	transition: all 0.4s;
 }
 
 /* --------------------------- */
+
 /* ------- EXERCICE 2 -------- */
-/* --------------------------- */
-
 
 /* --------------------------- */
+
+/* --------------------------- */
+
 /* ------- EXERCICE 3 -------- */
+
 /* --------------------------- */
 
-@media print {
-
-}
+@media print {}
