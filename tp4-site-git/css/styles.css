@@ -213,10 +213,7 @@ header, footer p {
 	gap: 10px;
 	grid-template-columns: 1fr 1fr 1fr 1fr;
 	grid-template-rows: 1fr 1fr 1fr;
-	grid-template-areas: 
-	"pk lt bb bb" 
-	"ms ms bb bb" 
-	"ms ms ch chee";
+	grid-template-areas: "pk lt bb bb" "ms ms bb bb" "ms ms ch chee";
 	align-content: stretch;
 	justify-content: stretch;
 }
@@ -253,11 +250,21 @@ header, footer p {
 	grid-area: bb;
 }
 
-
 /* --------------------------- */
 
 /* ------- EXERCICE 3 -------- */
 
 /* --------------------------- */
 
-@media print {}
+@media print {
+	img {
+		display: none;
+	}
+	*, .btn {
+		color: #000000;
+		border-color: #000000;
+		background-color: #000000;
+		border-color: black;
+		text-decoration: none;
+	}
+}
